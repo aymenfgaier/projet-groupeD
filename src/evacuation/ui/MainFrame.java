@@ -46,6 +46,7 @@ public class MainFrame extends JFrame {
 
         setTitle("Simulation d'évacuation");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
         setLayout(new BorderLayout(6, 6));
 
         add(renderer,             BorderLayout.CENTER);
